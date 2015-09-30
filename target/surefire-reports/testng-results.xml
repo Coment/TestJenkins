@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[<a href=/Users/yurii/Downloads/TestGmail-master/target/screenshots/openHomePage/openHomePage_29_09_2015_02_41_12.png target='_blank' ><p><br/><img src="file:////Users/yurii/Downloads/TestGmail-master/target/screenshots/openHomePage/openHomePage_29_09_2015_02_41_12.png" width="600" height="338" alt=""/><br/></p></a>]]>
+    </line>
+    <line>
+      <![CDATA[Was performed on id("email")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was performed on id("email")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id("next")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was performed on id("passwd")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id("signin")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Loging to User Account Page with e-mail testcaseleniumjava@gmail.com and password Ghjcnjz270]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id(":5h")/div[1]/div[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag div<br>НАПИСАТИ<br>]]>
+    </line>
+    <line>
+      <![CDATA[Was performed on id(":b2")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag div<br>Test mail with selenium<br>]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id(":9q")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag div<br>Надіслати<br>]]>
+    </line>
+    <line>
+      <![CDATA[Allert error]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[<a href=/Users/yurii/Downloads/TestGmail-master/target/screenshots/openUserPage/openUserPage_29_09_2015_02_41_28.png target='_blank' ><p><br/><img src="file:////Users/yurii/Downloads/TestGmail-master/target/screenshots/openUserPage/openUserPage_29_09_2015_02_41_28.png" width="600" height="338" alt=""/><br/></p></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="TestingBasics" duration-ms="25058" started-at="2015-09-29T11:41:03Z" finished-at="2015-09-29T11:41:28Z">
+    <groups>
+      <group name="group">
+        <method signature="AccountPageTestSuite.openUserPage()[pri:0, instance:com.gmail.testcases.AccountPageTestSuite@66153688]" name="openUserPage" class="com.gmail.testcases.AccountPageTestSuite"/>
+        <method signature="HomePageTestSuite.openHomePage()[pri:0, instance:com.gmail.testcases.HomePageTestSuite@22367b8]" name="openHomePage" class="com.gmail.testcases.HomePageTestSuite"/>
+      </group> <!-- group -->
+    </groups>
+    <test name="TestGmail" duration-ms="25058" started-at="2015-09-29T11:41:03Z" finished-at="2015-09-29T11:41:28Z">
+      <class name="com.gmail.testcases.AccountPageTestSuite">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.gmail.testcases.AccountPageTestSuite@66153688]" name="init" is-config="true" duration-ms="2816" started-at="2015-09-29T14:41:12Z" finished-at="2015-09-29T14:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="openUserPage()[pri:0, instance:com.gmail.testcases.AccountPageTestSuite@66153688]" name="openUserPage" duration-ms="9463" started-at="2015-09-29T14:41:15Z" finished-at="2015-09-29T14:41:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Was performed on id("email")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was performed on id("email")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id("next")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was performed on id("passwd")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id("signin")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Loging to User Account Page with e-mail testcaseleniumjava@gmail.com and password Ghjcnjz270]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id(":5h")/div[1]/div[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag div<br>НАПИСАТИ<br>]]>
+            </line>
+            <line>
+              <![CDATA[Was performed on id(":b2")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag div<br>Test mail with selenium<br>]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id(":9q")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag div<br>Надіслати<br>]]>
+            </line>
+            <line>
+              <![CDATA[Allert error]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[<a href=/Users/yurii/Downloads/TestGmail-master/target/screenshots/openUserPage/openUserPage_29_09_2015_02_41_28.png target='_blank' ><p><br/><img src="file:////Users/yurii/Downloads/TestGmail-master/target/screenshots/openUserPage/openUserPage_29_09_2015_02_41_28.png" width="600" height="338" alt=""/><br/></p></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openUserPage -->
+        <test-method status="PASS" signature="reopenApp()[pri:0, instance:com.gmail.testcases.AccountPageTestSuite@66153688]" name="reopenApp" is-config="true" duration-ms="231" started-at="2015-09-29T14:41:28Z" finished-at="2015-09-29T14:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reopenApp -->
+      </class> <!-- com.gmail.testcases.AccountPageTestSuite -->
+      <class name="com.gmail.testcases.HomePageTestSuite">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.gmail.testcases.HomePageTestSuite@22367b8]" name="init" is-config="true" duration-ms="4093" started-at="2015-09-29T14:41:03Z" finished-at="2015-09-29T14:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:com.gmail.testcases.HomePageTestSuite@22367b8]" name="openHomePage" duration-ms="1227" started-at="2015-09-29T14:41:07Z" finished-at="2015-09-29T14:41:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[<a href=/Users/yurii/Downloads/TestGmail-master/target/screenshots/openHomePage/openHomePage_29_09_2015_02_41_12.png target='_blank' ><p><br/><img src="file:////Users/yurii/Downloads/TestGmail-master/target/screenshots/openHomePage/openHomePage_29_09_2015_02_41_12.png" width="600" height="338" alt=""/><br/></p></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="reopenApp()[pri:0, instance:com.gmail.testcases.HomePageTestSuite@22367b8]" name="reopenApp" is-config="true" duration-ms="106" started-at="2015-09-29T14:41:12Z" finished-at="2015-09-29T14:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reopenApp -->
+      </class> <!-- com.gmail.testcases.HomePageTestSuite -->
+    </test> <!-- TestGmail -->
+  </suite> <!-- TestingBasics -->
+</testng-results>

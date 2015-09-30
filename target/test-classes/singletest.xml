@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingBasics" verbose="5"
+	data-provider-thread-count="1" >
+	<parameter name="browserName" value="firefox" />
+	<listeners>
+<!-- 		<listener class-name="com.gmail.testbase.MyTestListener"></listener> -->
+	</listeners>
+
+	<test name="TestGmail">
+		<groups>
+			<run>
+				<include name="group" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.gmail.testcases.HomePageTestSuite" />
+			<class name="com.gmail.testcases.AccountPageTestSuite" />
+<!-- 			<class name="com.gmail.testcases.LoginMoteveTest" /> -->
+		</classes>
+	</test>
+</suite>

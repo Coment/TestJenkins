@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [TestingBasics]" parallel="tests" data-provider-thread-count="1">
+  <parameter name="browserName" value="firefox"/>
+  <test name="TestGmail(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="group"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.gmail.testcases.AccountPageTestSuite">
+        <methods>
+          <include name="openUserPage"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.AccountPageTestSuite -->
+      <class name="com.gmail.testcases.HomePageTestSuite">
+        <methods>
+          <include name="openHomePage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.HomePageTestSuite -->
+    </classes>
+  </test> <!-- TestGmail(failed) -->
+</suite> <!-- Failed suite [TestingBasics] -->

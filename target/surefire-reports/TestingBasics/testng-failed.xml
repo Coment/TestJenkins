@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestingBasics]" data-provider-thread-count="1">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.gmail.testbase.MyTestListener"/>
+  </listeners>
+  <test name="TestGmail(failed)">
+    <groups>
+      <run>
+        <include name="group"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.gmail.testcases.HomePageTestSuite">
+        <methods>
+          <include name="openHomePage"/>
+          <include name="reopenApp"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.HomePageTestSuite -->
+      <class name="com.gmail.testcases.LoginMoteveTest$LoginPageTestSuite">
+        <methods>
+          <include name="reopenApp"/>
+          <include name="init"/>
+          <include name="loginMoteve"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.LoginMoteveTest$LoginPageTestSuite -->
+      <class name="com.gmail.testcases.AccountPageTestSuite">
+        <methods>
+          <include name="reopenApp"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.AccountPageTestSuite -->
+    </classes>
+  </test> <!-- TestGmail(failed) -->
+</suite> <!-- Failed suite [TestingBasics] -->
